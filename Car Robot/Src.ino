@@ -1,3 +1,6 @@
+// Car Robot Code 
+// Obstacle Avoidance Robot Car Mange to detect The Obstacle using Ultrasonic,
+// Bluetooth Module to Connect with Phone
 #include <NewPing.h>
 #include <Servo.h> 
 
