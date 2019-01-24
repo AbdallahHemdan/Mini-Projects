@@ -1,0 +1,19 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: "Montserrat",sans-serif;
+  background: #FFF;
+}
+h1{
+    font-size:240px;
+    font-weight: 200px;
+    letter-spacing: 20px; 
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: url("Images/astronomy-cosmos-dark-733475.jpg") 80% 20%;
+  background-size: cover;
+  -webkit-text-fill-color:transparent ; 
+  -webkit-background-clip:text;
+}
