@@ -1,0 +1,179 @@
+body{/*✔*/
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #F4F4F4;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Global styling */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.dark{
+    padding: 15px;
+    color: white;
+    background: #35424A;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+/* Header */
+header{
+    background: #35424A;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 4px solid orangered;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header .branding{
+    float: left;
+}
+
+header .branding h1{
+    margin:0;
+}
+header nav{
+    float: right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color: orangered;
+    font-weight:bold;
+}
+
+header a:hover{
+    font-weight: bold;
+    color: gray;
+}
+
+/* show-case */
+.showcase{
+    min-height: 400px;
+    background: url('../img/showcase.jpg') no-repeat 0 -400px;
+    color:white;
+    text-align: center;
+}
+.showcase .container p{
+    font-size: 20px;
+}
+
+.showcase .container h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.newsletter{
+    padding: 15px;
+    color: white;
+    background: #35424A;
+}
+.newsletter h1{
+    float: left;
+    line-height: 100%;
+}
+
+.newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+.subscribe input[type="email"]{
+    width: 250px;
+    height: 25px;
+    padding: 5px;
+}
+
+.subscribe input[type="button"]{
+    height: 40px;
+    color: white;
+    background: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    text-align: center;
+}
+
+.boxes{
+    margin-top: 20px;
+}
+
+.boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+.boxes .box img{
+    width: 90px;
+}
+
+footer{
+    text-align: center;
+    background: orangered;
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.main-arc{
+    float: left;
+    width: 65%;
+}
+aside{
+    float: right;
+    width: 25%;
+    margin-top: 10px;
+}
+
+aside .text{
+    font-size: 16px;
+    min-height: 150px;
+}
+
+.send-message input{
+    width: 90%;
+    height: 20px;
+    padding: 4px;
+}
+
+.send-message input[type="button"]{
+    width: 100px;
+    margin-top: 10px;
+    height: 40px;
+    background: orangered;
+    color: white;
+    border: none;
+}
+
+.field{
+    margin-bottom: 5px;
+}
+
+.services li{
+    background: #E6E6E6;
+    padding: 15px;
+    margin: 5px 0;
+    border-color: black;
+    border-width: 5px;
+}
